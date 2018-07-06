@@ -1,0 +1,20 @@
+Package: ariel
+Title: Access the SIRENE API from R
+Version: 0.0.0.9000
+Authors@R: person('Colin', 'Fay', email = 'contact@colinfay.me', role = c('cre', 'aut'))
+Description: Access the SIRENE API from R.
+License: MIT + file LICENSE
+LazyData: true
+URL: https://github.com/ColinFay/ariel
+BugReports: https://github.com/ColinFay/ariel/issues
+Encoding: UTF-8
+Suggests: 
+    testthat
+Imports: 
+    attempt,
+    curl,
+    jsonlite,
+    R6,
+    httr,
+    glue
+RoxygenNote: 6.0.1
