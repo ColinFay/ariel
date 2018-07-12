@@ -23,7 +23,7 @@ get_with_siret <- function(siret,
                            date = NULL,
                            token) {
   check_internet()
-  res_net <- GET(
+  res_net <- httr::GET(
     glue("{base_url}/siret/{siret}"),
     query = list(date = date),
     add_headers(
