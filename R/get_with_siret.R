@@ -4,6 +4,10 @@
 #' @param date the date to start from
 #' @param token an api token
 #'
+#' @importFrom httr GET add_headers
+#' @importFrom glue glue
+#' @importFrom jsonlite fromJSON
+#'
 #' @return a list of data.frame
 #' @export
 #'

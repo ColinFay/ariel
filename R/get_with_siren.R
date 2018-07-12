@@ -7,6 +7,10 @@
 #' @return a list of data.frame
 #' @export
 #'
+#' @importFrom httr GET add_headers
+#' @importFrom glue glue
+#' @importFrom jsonlite fromJSON
+#'
 #' @examples
 #' dontrun{
 #' get_with_siren(siren = "810064519",

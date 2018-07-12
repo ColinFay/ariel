@@ -6,6 +6,7 @@ check_internet <- function(){
 
 #' @importFrom httr status_code
 #' @importFrom attempt stop_if_not
+#'
 check_status <- function(res){
   stop_if_not(.x = status_code(res),
               .p = ~ .x == 200,
